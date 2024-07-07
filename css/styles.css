@@ -1,0 +1,184 @@
+/* =============== GENERAL =============== */
+
+:root {
+    /* COLORS */
+    --CLOUD: #F4F4FD;
+    --CORNFLOWER: #E7E9FC;
+    --DAIRY: #FCFCFC;
+    --GREEN: #31D0AA;
+    --GREY: #2E2F42;
+    --IRIS: #4D5AE5;
+    --LIGHT-SLATE: #8E8F99;
+    --NAVY-BLUE: #2E2F42;
+    --NAVY-BLUE-MODAL: #2E2F42;
+    --OCEAN: #404BBF;
+    --SLATE: #434455;
+    --WHITE: #FFFFFF;
+    /* FONTS*/
+    --font-primary: Roboto, sans-serif;
+    --font-logo: Raleway, sans-serif;
+    /* FONT WEIGHTS */
+    --weight-bold: 700;
+    --weight-medium: 500;
+    --weight-regular: 400;
+    /* FONT SPACINGS */
+    --spacing-regular: 0.02cap;
+    --spacing-wide: 0.04cap;
+}
+
+.no-decor-link {
+    text-decoration: none;
+}
+
+.no-marker-list {
+    list-style: none;
+}
+
+body {
+    font-family: var(--font-primary);
+    color: var(--SLATE);
+    font-size: 16px;
+    font-weight: var(--weight-regular);
+    line-height: 1.5;
+    letter-spacing: var(--spacing-regular);
+}
+
+/* =============== COMPONENTS =============== */
+
+.header-1 {
+    color: var(--WHITE);
+    font-size: 56px;
+    font-weight: var(--weight-bold);
+    line-height: 1.1;
+    text-transform: capitalize;
+}
+
+.header-2 {
+    color: var(--NAVY-BLUE);
+    font-size: 36px;
+    font-weight: var(--weight-bold);
+    line-height: 1.1;
+    text-transform: capitalize;
+}
+
+.header-3 {
+    color: var(--NAVY-BLUE);
+    font-size: 20px;
+    font-weight: var(--weight-medium);
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.centered {
+    text-align: center;
+}
+
+.small-text {
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: var(--spacing-wide);
+}
+
+.mediun-text {
+    font-weight: var(--weight-medium);
+}
+
+.button-text {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: var(--weight-medium);
+    letter-spacing: var(--spacing-wide);
+}
+
+/* =============== HEADER =============== */
+
+.logo {
+    color: var(--IRIS);
+    font-family: var(--font-logo);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo-2 {
+    color: var(--NAVY-BLUE);
+}
+
+.logo-3 {
+    color: var(--CLOUD);
+}
+
+.menu-link {
+    color: var(--NAVY-BLUE);
+    font-weight: var(--weight-medium);
+}
+
+.contact:hover,
+.contact:focus,
+.contact:active {
+    color: var(--OCEAN);
+}
+
+.menu-link:hover,
+.nemu-link:focus,
+.menu-link:active {
+    color: var(--OCEAN);
+    text-decoration: underline;
+}
+
+.contact {
+    font-style: normal;
+}
+
+/* =============== HERO =============== */
+
+.hero {
+    background-color: var(--NAVY-BLUE);
+}
+
+.model-btn {
+    color: var(--WHITE);
+    border-radius: 4px;
+    background: var(--IRIS);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.model-btn:hover,
+.model-btn:focus {
+    background: var(--OCEAN);
+}
+
+/* =============== ABOUT =============== */
+
+
+
+/* =============== TEAM =============== */
+.team {
+    background-color: var(--CLOUD) 
+}
+
+
+/* =============== PORTFOLIO =============== */
+
+.filter-btn {
+    color: var(--IRIS);
+    border-radius: 4px;
+    border: 1px solid var(--CORNFLOWER);
+    background: var(--CLOUD);
+}
+
+.filter-btn:hover {
+    color: var(--WHITE);
+    background: var(--OCEAN);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+/* =============== FOOTER =============== */
+
+.footer-text {
+    color: var(--CLOUD);
+    background-color: var(--NAVY-BLUE) 
+}
