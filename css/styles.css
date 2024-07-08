@@ -126,8 +126,8 @@ body {
 }
 
 .contact {
-    letter-spacing: var(--spacing-regular)
-    var(--SLATE)
+    letter-spacing: var(--spacing-regular);
+    color: var(--SLATE);
 }
 
 .contact:hover,
@@ -138,7 +138,8 @@ body {
 
 .menu-link:hover,
 .nemu-link:focus,
-.menu-link:active {
+.menu-link:active,
+.menu-link:visited {
     color: var(--OCEAN);
     text-decoration: underline;
 }
