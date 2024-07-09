@@ -46,33 +46,33 @@ body {
 
 /* =============== COMPONENTS =============== */
 
-.header-1 {
+.header-prime {
     color: var(--WHITE);
     font-size: 56px;
     font-weight: var(--weight-bold);
     line-height: 1.07;
     text-align: center;
-    letter-spacing: var(--spacing-regular);
+    /* letter-spacing: var(--spacing-regular); */
     text-transform: capitalize;
 }
 
-.header-2 {
+.header-section {
     color: var(--NAVY-BLUE);
     font-size: 36px;
     font-weight: var(--weight-bold);
     line-height: 1.11;
     text-align: center;
-    letter-spacing: var(--spacing-regular);
+    /* letter-spacing: var(--spacing-regular); */
     text-transform: capitalize;
 }
 
-.header-3 {
+.header-card {
     color: var(--NAVY-BLUE);
     font-size: 20px;
     font-weight: var(--weight-medium);
     line-height: 1.2;
     text-align: center;
-    letter-spacing: var(--spacing-regular);
+    /* letter-spacing: var(--spacing-regular); */
     text-transform: capitalize;
 }
 
@@ -87,9 +87,9 @@ body {
 }
 
 .button-text {
-    font-family: var(--font-primary);
-    font-size: 16px;
-    line-height: 1.5;
+    /* font-family: var(--font-primary); */
+    /* font-size: 16px; */
+    /* line-height: 1.5; */
     font-weight: var(--weight-medium);
     letter-spacing: var(--spacing-wide);
 }
@@ -107,16 +107,15 @@ body {
 }
 
 .logo:hover,
-.logo:focus,
-.logo:active {
+.logo:focus {
     color: var(--OCEAN);
 }
 
-.logo-2 {
+.logo-header {
     color: var(--NAVY-BLUE);
 }
 
-.logo-3 {
+.logo-footer {
     color: var(--CLOUD);
 }
 
@@ -126,22 +125,18 @@ body {
 }
 
 .contact {
-    letter-spacing: var(--spacing-regular);
+    /* letter-spacing: var(--spacing-regular); */
     color: var(--SLATE);
 }
 
 .contact:hover,
-.contact:focus,
-.contact:active {
+.contact:focus {
     color: var(--OCEAN);
 }
 
 .menu-link:hover,
-.nemu-link:focus,
-.menu-link:active,
-.menu-link:visited {
+.nemu-link:focus {
     color: var(--OCEAN);
-    text-decoration: underline;
 }
 
 .address {
