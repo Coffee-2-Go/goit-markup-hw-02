@@ -1,4 +1,4 @@
-# Homework: Module 2 - CSS basics
+# Tier 2. Module 1. Homework 2 - CSS basics
 
 * Create repository `goit-markup-hw-02`.
 * Clone the created repository and copy the files of previous work to it.
